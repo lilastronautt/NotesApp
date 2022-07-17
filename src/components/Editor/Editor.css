@@ -1,0 +1,49 @@
+.input {
+  background: rgb(40, 83, 176);
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.border-icon {
+  color: white;
+  vertical-align: middle;
+  margin-left: 0.5rem;
+  cursor: pointer;
+}
+
+.border-icon:hover {
+  color: greenyellow;
+}
+
+.title-show {
+  border: none;
+  background: rgb(40, 83, 176);
+  font-size: 1.22rem;
+  color: white;
+  padding: 0.5rem 1rem;
+}
+
+.input input {
+  outline: none;
+}
+
+.save-body {
+  padding: 0.5rem 1rem;
+}
+
+.save-body button {
+  cursor: pointer;
+  border-radius: 12px;
+  padding: 0.5rem 1.5rem;
+  color: white;
+  background-color: rgb(40, 120, 124);
+  border: 1px solid rgb(40, 120, 124);
+}
+
+.save-body button:hover {
+  background-color: white;
+  color: rgb(40, 120, 124);
+}

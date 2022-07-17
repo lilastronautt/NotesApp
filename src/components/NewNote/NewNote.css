@@ -1,0 +1,71 @@
+.new-note__input button {
+  background: rgb(40, 83, 176);
+  width: 100%;
+  border: none;
+  color: white;
+  padding: 0.5rem 0;
+  cursor: pointer;
+  margin-bottom: 0.5rem;
+}
+
+.new-note__input button:hover {
+  background: rgba(40, 83, 176, 0.9);
+}
+
+.title-input {
+  width: 100%;
+}
+
+.title-input input {
+  border: none;
+  padding: 0.5rem 1rem;
+}
+
+.title-input input:focus {
+  outline: none;
+}
+
+.submit-btn button {
+  background-color: rgb(40, 120, 124);
+}
+
+.submit-btn button:hover {
+  background-color: rgba(40, 120, 124, 0.9);
+}
+
+.error {
+  font-size: 0.8rem;
+  text-align: center;
+  color: orangered;
+  margin: 0 0 0.3rem 0;
+}
+
+.title-list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1rem;
+
+  cursor: pointer;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.title-list:hover {
+  background-color: rgba(79, 105, 190, 0.3);
+}
+
+.title {
+  font-size: 1.3rem;
+}
+.body {
+  margin-top: 5px;
+  color: rgb(108, 106, 106);
+}
+
+.selected-class {
+  background-color: rgba(79, 105, 190, 0.3);
+}
+
+.delete:hover {
+  color: orangered;
+}
