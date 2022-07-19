@@ -75,6 +75,7 @@ const NewNote = () => {
 
         const toFirstUpper = (string) => {
           const newStr = string
+            ?.trim()
             .toLowerCase()
             .split(" ")
             .map((word) => word.replace(word.at(0), word.at(0).toUpperCase()))
